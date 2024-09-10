@@ -1,0 +1,228 @@
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: #001e46cd;
+    backdrop-filter: blur(3px);
+    padding: 40px;
+
+}
+
+.container h1{
+    text-align: center;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 30px auto;
+
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color:#001E46 ;
+    border:none;
+    outline: none;
+    font-family: "Inder", sans-serif;
+    font-size: 16px;
+    color:white;
+    padding: 20px 45px;
+}
+
+.input-field .icon{
+    position:absolute;
+    left: 15px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.container .recall-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.recall-forget input{
+    margin-right: 5px;
+}
+
+.recall-forget a, .signup-link p a{
+    color:white;
+    text-decoration: none;
+}
+
+.recall-forget a:hover, .signup-link a:hover{
+    text-decoration: underline;
+}
+
+.container button{
+    width: 30%;
+    height: 50px;
+    background-color: #36547B;
+    outline: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.container .signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    margin:0;
+    background-color: #001E46;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 350px;
+        height: 500px;
+        background-color: #001e46cd;
+        backdrop-filter: blur(3px);
+        padding: 40px;
+        align-items: center;
+    }
+    
+    .container h1{
+        text-align: center;
+        font-family: "IM Fell English SC", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    .container .input-field{
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin: 30px auto;
+    
+    }
+    
+    .input-field input{
+        width: 100%;
+        height: 100%;
+        background-color:#001E46 ;
+        border:none;
+        outline: none;
+        font-family: "Inder", sans-serif;
+        font-size: 16px;
+        color:white;
+        padding: 20px 45px;
+    }
+    
+    .input-field .icon{
+        position:absolute;
+        left: 15px;
+        top:50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+    }
+    
+    .container .recall-forget{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+    }
+    
+    .recall-forget input{
+        margin-right: 5px;
+    }
+    
+    .recall-forget a, .signup-link p a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .recall-forget a:hover, .signup-link a:hover{
+        text-decoration: underline;
+    }
+    
+    .container button{
+        width: 35%;
+        height: 40px;
+        background-color: #36547B;
+        outline: none;
+        border-radius: 10px;
+        display: inline-block;
+        margin-left: 90px;
+    }
+    
+    .container .signup-link{
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+    
+    .header{
+        width: 100%;
+        height: 100px;
+        margin:0;
+        background-color: #001E46;
+    }
+    
+    
+    body {
+      margin: 0;
+      display: flex;
+      place-items: center;
+      min-width: 100%;
+      min-height: 100vh;
+    }
+    
+    h1 {
+      font-size: 3em;
+      line-height: 1.1;
+    }
+    
+    button {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #1a1a1a;
+      cursor: pointer;
+      transition: border-color 0.25s;
+      margin-top: 10px;
+    }
+}
